@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phurten's Portfolio</title>
+
+  <!-- linking css file -->
+  <link rel="stylesheet" type="text/css" href="styles/styles.css">
+</head>
+<body>
+  <main>
+
+    <!-- header with logo, menu toggle and nav links -->
+    <header>
+      <a href="#"><img src="images/logo-whitesvg.svg" alt="Phurten logo white"></a>
+      <button id="menu-toggle">≡</button> <!-- adding menu toggle -->
+      <nav id="main-menu">
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- hero section with centered heading and images -->
+    <section class="hero-container">
+      <div id="hero1"><img src="images/small-image-1.png" alt="Decoration image 1"></div>
+      <div id="main-hero">
+        <div id="hero-text"><h2>bringing ideas to life</h2></div>
+      </div>
+      <div id="hero2"><img src="images/small-image-2.png" alt="Decoration image 2"></div>
+    </section>
+
+    <!-- about section with intro and cv button -->
+    <section class="about-container">
+      <div id="about-title"><h2>namaste.</h2></div>
+      <div id="about-text">
+        <p>I’m Phurten Jang Sherpa, a Front-End Firepower with UX Finesse.</p>
+        <p>Currently studying Web Development and bringing over 2 years of experience as a UI/UX designer...</p>
+        <button class="primary-button">Download CV <img src="images/arrow-right.svg" alt="Arrow icon"></button>
+      </div>
+    </section>
+
+    <!-- tools and language icons -->
+    <div class="languages">
+      <div id="first-row">
+        <div class="circle"><img src="images/icons8-react-48.svg" alt="React"></div>
+        <div class="circle"><img src="images/icons8-figma.svg" alt="Figma"></div>
+        <div class="circle"><img src="images/icons8-adobesvg.svg" alt="Adobe Tools"></div>
+      </div>
+      <div id="second-row">
+        <div class="circle"><img src="images/icons8-html.svg" alt="HTML"></div>
+        <div class="circle"><img src="images/icons8-css.svg" alt="CSS"></div>
+        <div class="circle"><img src="images/icons8-js.svg" alt="JavaScript"></div>
+        <div class="circle"><img src="images/icons8-c.svg" alt="C Language"></div>
+      </div>
+    </div>
+
+    <!-- project showcase section -->
+    <section class="project-container">
+      <div id="project-heading">
+        <div id="project-title"><h2>projects.</h2></div>
+        <div id="sliders">
+          <button><img src="images/arrow-left.svg" alt="Previous"></button>
+          <button><img src="images/arrow-right.svg" alt="Next"></button>
+        </div>
+      </div>
+
+      <!-- individual project cards -->
+      <div class="project-card-container">
+        <div class="project-card">
+          <img src="images/project-image1.png" alt="TransitFlow App Preview" class="project-image">
+          <div class="tools"><h4>Figma, React Native, Tailwind CSS</h4></div>
+          <div class="project-detail">
+            <h3>TransitFlow – Urban Transit App Redesign</h3>
+            <h4>MoveMetro Inc.</h4>
+          </div>
+          <button class="primary-button">LEARN MORE <img src="images/arrow-right.svg" alt="Arrow icon"></button>
+        </div>
+        <div class="project-card">
+          <img src="images/project-image1.png" alt="TransitFlow App Preview" class="project-image">
+          <div class="tools"><h4>Figma, React Native, Tailwind CSS</h4></div>
+          <div class="project-detail">
+            <h3>TransitFlow – Urban Transit App Redesign</h3>
+            <h4>MoveMetro Inc.</h4>
+          </div>
+          <button class="primary-button">LEARN MORE <img src="images/arrow-right.svg" alt="Arrow icon"></button>
+        </div>
+        <div class="project-card">
+          <img src="images/project-image1.png" alt="TransitFlow App Preview" class="project-image">
+          <div class="tools"><h4>Figma, React Native, Tailwind CSS</h4></div>
+          <div class="project-detail">
+            <h3>TransitFlow – Urban Transit App Redesign</h3>
+            <h4>MoveMetro Inc.</h4>
+          </div>
+          <button class="primary-button">LEARN MORE <img src="images/arrow-right.svg" alt="Arrow icon"></button>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- contact section with form -->
+    <section class="contact-container">
+      <div id="contact-heading">
+        <div id="contact-title"><h2>get in touch.</h2></div>
+        <p>Whether you have an idea, a project, or just want to say hello...</p>
+      </div>
+      <div id="contact-form">
+        <img src="images/contact-image.png" alt="Contact Illustration">
+        <form action="#" method="post">
+          <input type="text" name="name" placeholder="Full name" required>
+          <input type="email" name="email" placeholder="Your email" required>
+          <textarea name="message" placeholder="Your message" rows="5" required></textarea>
+          <button class="primary-button" type="submit">submit<img src="images/arrow-right.svg" alt="Arrow icon"></button>
+        </form>
+      </div>
+    </section>
+
+    <!-- footer section with links -->
+    <footer class="footer-section">
+      <div id="footer-content">
+        <img src="images/logo-black.svg" alt="Phurten logo black">
+        <h1>let's code together </h1>
+        <nav id="footer-nav">
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- copyright and privacy section -->
+      <div id="copyright-section">
+        <div><h3>© 2025 PHURTEN JANG SHERPA. ALL RIGHT RESERVED. </h3></div>
+        <div id="privacy-policy">
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">TERMS & CONDITIONS</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <!-- linking js file -->
+  <script src="menu.js"></script>
+</body>
+</html>
